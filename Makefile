@@ -1,5 +1,5 @@
 
-DIRS = intro fileio
+DIRS = intro fileio fileanddir standardio sysdtfileandinfo
 all:
 	for i in $(DIRS); do \
 		(cd $$i && echo "making $$i" && $(MAKE) ) || exit 1; \
