@@ -1,0 +1,11 @@
+copy
+dup
+fcntl
+file.hole
+file.hole.copy
+file.nohole
+file.seek
+file.seek.write
+hole
+lseek
+pread
