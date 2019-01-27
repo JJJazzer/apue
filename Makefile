@@ -1,5 +1,6 @@
 
-DIRS = intro fileio fileanddir standardio sysdtfileandinfo
+DIRS = intro fileio fileanddir standardio sysdtfileandinfo \
+       processcontrol processenv
 all:
 	for i in $(DIRS); do \
 		(cd $$i && echo "making $$i" && $(MAKE) ) || exit 1; \
